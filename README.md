@@ -4,7 +4,7 @@
 2. Enter the name the service of interest (case sensitive)
 3. Enter your master password (or whatever password you want to use for this service, if you wish to remember more than one password)
 
-A service-specific password will then be generated and copied to the clipboard automatically.
+A service-specific password will then be generated and copied to the clipboard automatically. :tada:
 
 ## Details
 
