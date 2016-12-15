@@ -48,4 +48,4 @@ password = Digest::SHA512.hexdigest(secret)    # 016ba8c4cfde65af99cb5fa8b8a37e2
   .slice(0, passlen)                           # iKJTL;0(Z"xs
 
 Clipboard.copy password
-print 'Password copied to clipboard.'
+puts 'Password copied to clipboard.'
