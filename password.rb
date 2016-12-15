@@ -8,7 +8,8 @@ LETTERS = LOWERCASE + UPPERCASE
 NUMBERS = '0123456789'
 SYMBOLS  = '`~!@#$%^&*()_+-=[]{}\|;:\'",<.>/?'
 PUNCTUATION = '.,;:?!()"'
-TYPEABLE = LOWERCASE + UPPERCASE + NUMBERS + SYMBOLS
+ALL = LETTERS + NUMBERS + SYMBOLS
+
 HEX = '0123456789abcdef'
 SALT_FILE='salt'
 
@@ -18,7 +19,7 @@ service = gets
 # TODO:
 # - make these YML-configurable per service
 # - pull defaults from an API of standard, known services
-charset = LETTERS+NUMBERS+SYMBOLS
+charset = ALL
 passlen = 12
 
 puts "-> using characters: #{charset}"
