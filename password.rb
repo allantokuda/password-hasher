@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'io/console'  # for 'noecho' method
 require 'digest/sha2'
 require 'clipboard'
