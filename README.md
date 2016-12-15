@@ -9,4 +9,4 @@ A service-specific password will then be generated and copied to the clipboard a
 ## Details
 
 * A `salt` file is also generated. This file is needed to reproduce the same passwords again in the future. To use the script on multiple machines, be sure to copy the generated `salt` file along with you to each machine. You are free to modify the `salt` file to contain whatever (preferably long) secret string you wish.
-* For now, the result is always 12 characters, including letters/numbers/symbols. Hopeful future feature will allow length and character set configuration per service with a YML file. A line printed letting you know what characters will be used to generate the password.
+* For now, the result is always 12 characters, including letters/numbers/symbols. Hopeful future feature will allow length and character set configuration per service with a YML file.
